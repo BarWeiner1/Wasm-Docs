@@ -1,0 +1,30 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export function flux_free_error(a: number): void;
+export function flux_free_bytes(a: number): void;
+export function flux_parse(a: number, b: number): number;
+export function flux_ast_format(a: number, b: number): number;
+export function flux_ast_get_error(a: number): number;
+export function flux_free_ast_pkg(a: number): void;
+export function flux_parse_json(a: number, b: number): number;
+export function flux_ast_marshal_json(a: number, b: number): number;
+export function flux_ast_marshal_fb(a: number, b: number): number;
+export function flux_free_semantic_pkg(a: number): void;
+export function flux_semantic_marshal_fb(a: number, b: number): number;
+export function flux_error_str(a: number): number;
+export function flux_merge_ast_pkgs(a: number, b: number): number;
+export function flux_analyze(a: number, b: number): number;
+export function flux_find_var_type(a: number, b: number, c: number): number;
+export function flux_new_semantic_analyzer(): number;
+export function flux_free_semantic_analyzer(a: number): void;
+export function flux_analyze_with(a: number, b: number, c: number): number;
+export function flux_get_env_stdlib(a: number): void;
+export function parse(a: number, b: number): number;
+export function format_from_js_file(a: number, b: number): void;
+export function wasm_find_var_type(a: number, b: number, c: number, d: number, e: number, f: number): number;
+export function get_json_documentation(a: number, b: number): number;
+export function __wbindgen_malloc(a: number): number;
+export function __wbindgen_realloc(a: number, b: number, c: number): number;
+export function __wbindgen_add_to_stack_pointer(a: number): number;
+export function __wbindgen_free(a: number, b: number): void;

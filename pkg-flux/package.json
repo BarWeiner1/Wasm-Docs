@@ -1,0 +1,16 @@
+{
+  "name": "@influxdata/flux",
+  "collaborators": [
+    "jlapacik <joshua.lapacik@pacbell.net>"
+  ],
+  "version": "0.5.1",
+  "files": [
+    "flux_bg.wasm",
+    "flux.js",
+    "flux_bg.js",
+    "flux.d.ts"
+  ],
+  "module": "flux.js",
+  "types": "flux.d.ts",
+  "sideEffects": false
+}
