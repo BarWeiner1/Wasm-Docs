@@ -166,11 +166,11 @@ export function wasm_find_var_type(source, file_name, var_name) {
 
 /**
 * Gets json docs from a Flux identifier
-* @param {string} flux_identifier
+* @param {string} flux_path
 * @returns {any}
 */
-export function get_json_documentation(flux_identifier) {
-    var ptr0 = passStringToWasm0(flux_identifier, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+export function get_json_documentation(flux_path) {
+    var ptr0 = passStringToWasm0(flux_path, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
     var len0 = WASM_VECTOR_LEN;
     var ret = wasm.get_json_documentation(ptr0, len0);
     return takeObject(ret);

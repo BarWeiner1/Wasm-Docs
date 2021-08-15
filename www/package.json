@@ -6,7 +6,7 @@
   "bin": {
     "create-wasm-app": ".bin/create-wasm-app.js"
   },
-  "scripts": {
+  "flux.d.ts\nflux.js\nflux_bg.js\nflux_bg.wasm\nflux_bg.wasm.d.ts\npackage.jsonscripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server"
   },

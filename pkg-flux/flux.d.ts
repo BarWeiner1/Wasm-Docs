@@ -23,7 +23,7 @@ export function format_from_js_file(js_file: any): string;
 export function wasm_find_var_type(source: string, file_name: string, var_name: string): any;
 /**
 * Gets json docs from a Flux identifier
-* @param {string} flux_identifier
+* @param {string} flux_path
 * @returns {any}
 */
-export function get_json_documentation(flux_identifier: string): any;
+export function get_json_documentation(flux_path: string): any;
